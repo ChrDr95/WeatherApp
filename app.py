@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask,jsonify, render_template
+from flask import Flask,jsonify
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 import re
